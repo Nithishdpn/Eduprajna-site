@@ -1,0 +1,2430 @@
+<!-- Main HTML Document for EduLearn Website -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EduLearn - Online Learning Platform</title>
+        <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+        <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+        <!-- bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
+        <!-- theme-default CSS -->
+        <link rel="stylesheet" href="assets/css/theme-default.css" type="text/css" media="all">
+        <!-- Main Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
+        <!-- responsive CSS -->
+        <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
+        <!-- Coustom Animation CSS -->
+        <link rel="stylesheet" href="assets/css/coustom-animation.css" type="text/css" media="all">
+        <!-- FontAwesome Icons -->
+        <style>
+
+
+
+.page_section1__17mEq {
+    background-color: var(--dark-blue-900);
+    padding: 60px 0;
+    color: var(--white)
+}
+
+.page_grid__umSuY {
+    width: 85%;
+    display: flex;
+    margin: 0 auto 30px;
+    align-items: center;
+    overflow: hidden
+}
+
+.page_grid_item1__EOw9k {
+    flex: 1 1
+}
+
+.page_grid_item2__nT_2C {
+    flex: 1 1;
+    display: flex;
+    margin: auto 0;
+    align-items: center;
+    justify-content: center
+}
+
+.page_badge_container__bCxpX {
+    background-color: var(--light-blue-50);
+    display: flex;
+    gap: 10px;
+    padding: 4px;
+    border-radius: 99px;
+    width: max-content;
+    margin: 20px 0
+}
+
+.page_badge1__6MCm8 {
+    background-color: var(--light-blue-500);
+    padding: 4px 10px;
+    border-radius: 99px
+}
+
+.page_badge2__65OgC {
+    padding: 4px 10px;
+    border-radius: 99px;
+    color: var(--light-blue-600)
+}
+
+.page_badge2__65OgC p {
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.page_secondary_text__Qexoa {
+    color: var(--light-blue-grey-100);
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.page_button_container__7kkHR {
+    display: flex;
+    gap: 12px
+}
+
+.page_company_list_container__gXiRK {
+    width: 100%;
+    margin: 0 auto;
+    gap: 25px
+}
+
+.page_company_list_container_heading__5ZC2e {
+    text-align: center;
+    margin-bottom: 25px
+}
+
+.page_company_list__vdZzL {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative
+}
+
+.page_company_card1__UlzNB {
+    display: inline-block;
+    animation: page_slide__zisTL 40s linear infinite;
+    margin-bottom: 25px
+}
+
+.page_company_card2__0vHbo {
+    display: inline-block;
+    animation: page_slideLeft__5p5_L 40s linear infinite
+}
+
+.page_company_list__vdZzL:hover .page_company_card1__UlzNB,
+.page_company_list__vdZzL:hover .page_company_card2__0vHbo {
+    animation-play-state: paused
+}
+
+.page_company_card1__UlzNB .page_logo__1r_52,
+.page_company_card2__0vHbo .page_logo__1r_52 {
+    height: 56px;
+    width: auto
+}
+
+.page_company_logo__xGBIB {
+    width: 183px;
+    height: 96px;
+    display: inline-flex;
+    margin: 0 12px;
+    background-color: var(--white);
+    border: 1px solid var(--light-blue-grey-100);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center
+}
+
+@keyframes page_slide__zisTL {
+    0% {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(-100%)
+    }
+}
+
+@keyframes page_slideLeft__5p5_L {
+    0% {
+        transform: translateX(-100%)
+    }
+
+    to {
+        transform: translateX(0)
+    }
+}
+
+.page_section2__xXrw6 {
+    padding: 40px 16px
+}
+
+.page_section2_heading__vMjIB {
+    margin-bottom: 30px;
+    color: var(--text-primary-color)
+}
+
+.page_image_container1__SMpm_ {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center
+}
+
+.page_image_container2__yL81U {
+    display: none
+}
+
+.page_orbit_container__xgzFh {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.page_orbit_circle__Zp7gt {
+    position: absolute;
+    border: 2px solid var(--grey);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.page_orbit_1__wEBy3 {
+    width: 108px;
+    height: 108px;
+    animation: page_orbit-1__WeTxP 20s linear infinite
+}
+
+.page_orbit_1__wEBy3 .page_icon__C7e5C {
+    animation: page_counter-rotate-1__bxneO 10s linear infinite
+}
+
+.page_icon_1__DQBfK {
+    margin: -121px
+}
+
+.page_orbit_2__e6SBP {
+    width: 177px;
+    height: 177px;
+    animation: page_orbit-2__arf57 20s linear infinite
+}
+
+.page_orbit_2__e6SBP .page_icon__C7e5C {
+    animation: page_counter-rotate-2__5PMWL 10s linear infinite
+}
+
+.page_icon_2__BQb2Q {
+    margin: -86px
+}
+
+.page_orbit_3__mV_qv {
+    width: 246px;
+    height: 246px;
+    animation: page_orbit-3__vWGiu 20s linear infinite
+}
+
+.page_orbit_3__mV_qv .page_icon__C7e5C {
+    animation: page_counter-rotate-3__WQt4T 10s linear infinite
+}
+
+.page_icon_3__Aj9H4 {
+    margin: -77px
+}
+
+.page_orbit_4__eWnJB {
+    width: 315px;
+    height: 315px;
+    animation: page_orbit-4__bTn9b 20s linear infinite
+}
+
+.page_orbit_4__eWnJB .page_icon__C7e5C {
+    animation: page_counter-rotate-4__FlKG2 10s linear infinite
+}
+
+.page_icon_4__dVPgd {
+    margin: -42px
+}
+
+.page_orbit_5__PkIcQ {
+    width: 384px;
+    height: 384px;
+    animation: page_orbit-5__pvSl3 20s linear infinite
+}
+
+.page_orbit_5__PkIcQ .page_icon__C7e5C {
+    animation: page_counter-rotate-5__Ff195 10s linear infinite
+}
+
+.page_icon_5__pfU0z {
+    margin: -7px
+}
+
+.page_orbit_6__0uE2d {
+    width: 453px;
+    height: 453px
+}
+
+.page_orbit_7__YzKaR {
+    width: 522px;
+    height: 522px
+}
+
+@keyframes page_orbit-1__WeTxP {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes page_orbit-2__arf57 {
+    0% {
+        transform: rotate(72deg)
+    }
+
+    to {
+        transform: rotate(432deg)
+    }
+}
+
+@keyframes page_orbit-3__vWGiu {
+    0% {
+        transform: rotate(144deg)
+    }
+
+    to {
+        transform: rotate(504deg)
+    }
+}
+
+@keyframes page_orbit-4__bTn9b {
+    0% {
+        transform: rotate(216deg)
+    }
+
+    to {
+        transform: rotate(576deg)
+    }
+}
+
+@keyframes page_orbit-5__pvSl3 {
+    0% {
+        transform: rotate(288deg)
+    }
+
+    to {
+        transform: rotate(648deg)
+    }
+}
+
+@keyframes page_counter-rotate-1__bxneO {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(-1turn)
+    }
+}
+
+@keyframes page_counter-rotate-2__5PMWL {
+    0% {
+        transform: rotate(-144deg)
+    }
+
+    to {
+        transform: rotate(-504deg)
+    }
+}
+
+@keyframes page_counter-rotate-3__WQt4T {
+    0% {
+        transform: rotate(-288deg)
+    }
+
+    to {
+        transform: rotate(-648deg)
+    }
+}
+
+@keyframes page_counter-rotate-4__FlKG2 {
+    0% {
+        transform: rotate(-432deg)
+    }
+
+    to {
+        transform: rotate(-792deg)
+    }
+}
+
+@keyframes page_counter-rotate-5__Ff195 {
+    0% {
+        transform: rotate(-576deg)
+    }
+
+    to {
+        transform: rotate(-936deg)
+    }
+}
+
+.page_skill__qyXBv {
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.page_skill__qyXBv,
+.page_skill_icon__c5NXS {
+    width: 103px;
+    height: 103px
+}
+
+.page_icon__C7e5C {
+    width: 100%;
+    height: 100%
+}
+
+.page_section3__w4ruh {
+    height: 286px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--light-blue-grey-100);
+    box-shadow: 0 4px 6px -2px var(--grey-900) 8;
+    box-shadow: 0 12px 16px -4px var(--grey-900) 14;
+    border-radius: 24px;
+    width: 85%;
+    margin: 60px auto;
+    gap: 32px
+}
+
+.page_enquire_content__axK9W {
+    width: 50%;
+    margin-left: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px
+}
+
+.page_enquire_content__axK9W .page_section3_heading_container__Lvwkr {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.page_enquire_content__axK9W .page_enquire_sub_heading__Hn0dy {
+    text-align: left;
+    color: var(--text-primary-color)
+}
+
+.page_enquire_content__axK9W .page_enquire_buttons__Ug101 {
+    display: flex;
+    gap: 12px;
+    max-width: 346px
+}
+
+.page_enquire_image__GjtW_ {
+    width: 50%
+}
+
+.page_enquire_Image__MU2Sm {
+    width: 100%;
+    height: 350px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px
+}
+
+.page_section4__yON6t {
+    background-color: var(--grey-50)
+}
+
+.page_section4_container__3JxNw {
+    background-color: var(--grey-50);
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 48px
+}
+
+.page_section4_heading_container__NyHmY {
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+.page_section4_heading_container__NyHmY p {
+    text-align: center
+}
+
+.page_section4_sub_heading___cIt8 {
+    color:#0a0a18;
+}
+
+.page_placed_students__S_RRj {
+    display: grid;
+    flex-wrap: wrap;
+    grid-gap: 32px;
+    gap: 32px;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: space-between
+}
+
+.page_student_card__b_KWc {
+    border: 1px solid var(--light-blue-grey-100);
+    border-radius: 12px;
+    background: var(--white)
+}
+
+.page_placement_image__tYl8h {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px
+}
+
+.page_student_details__E_N6o {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px
+}
+
+.page_student_details__E_N6o p {
+    text-align: center
+}
+
+.page_student_details__E_N6o img {
+    height: 56px;
+    width: auto
+}
+
+.page_student_role__JubV0 {
+    color: var(--dark-blue-500)
+}
+
+.page_social_proof_right__5P3tJ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 768px;
+    align-items: center
+}
+
+@media(min-width:768px) {
+    .page_social_proof_right__5P3tJ {
+        flex-direction: row
+    }
+}
+
+.page_social_proof_right__5P3tJ span {
+    width: 100%;
+    text-align: center;
+    padding: 16px 0;
+    display: inline-block
+}
+
+@media(min-width:768px) {
+    .page_social_proof_right__5P3tJ span {
+        padding: 0;
+        max-width: 100%
+    }
+}
+
+.page_social_proof_right__5P3tJ span:not(:last-child) {
+    border-right: none
+}
+
+@media(min-width:768px) {
+    .page_social_proof_right__5P3tJ span:not(:last-child) {
+        border-right: 1px solid #eaecd0
+    }
+}
+
+.page_social_proof_right__5P3tJ .page_values__PFg8x {
+    color: var(--light-blue-500)
+}
+
+.page_card_section__AdT_D {
+    background: var(--light-blue-500);
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 48px
+}
+
+.page_card_section_heading_container__h5oId {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+.page_card_section_heading_container__h5oId p {
+    text-align: center
+}
+
+.page_card_container__QoFvJ {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 32px;
+    gap: 32px;
+    width: 85%;
+    margin: 0 auto
+}
+
+.page_card___3JVW {
+    height: 300px;
+    background: var(--white);
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    gap: 48px;
+    justify-content: center;
+    box-shadow: 0 8px 8px -4px rgba(16, 24, 40, .031);
+    box-shadow: 0 20px 24px -4px rgba(16, 24, 40, .078)
+}
+
+.page_image_container__xOi7b {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.page_text_container__9ngxe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.page_card_heading__5ijbh {
+    color: var(--dark-blue-500)
+}
+
+.page_card_text__6xlPL {
+    color: var(--text-primary-color);
+    text-align: center
+}
+
+@media screen and (max-width:1500px) {
+    .page_enquire_Image__MU2Sm {
+        height: 284px
+    }
+
+    .page_enquire_content__axK9W .page_enquireButtons__1fwig {
+        width: 332px
+    }
+}
+
+@media(max-width:1200px) {
+    .page_enquire_content__axK9W .page_enquireButtons__1fwig {
+        flex-direction: column;
+        width: 80%
+    }
+}
+
+@media(max-width:1100px) {
+    .page_section3__w4ruh {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        height: -moz-fit-content;
+        height: fit-content;
+        padding-bottom: 48px
+    }
+
+    .page_social_proof_right__5P3tJ {
+        width: 100%
+    }
+
+    .page_enquire_content__axK9W {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 48px
+    }
+
+    .page_grid_item2__nT_2C,
+    .page_orbit_container__xgzFh {
+        width: 410px;
+        height: 410px
+    }
+
+    .page_orbit_1__wEBy3 {
+        width: 88px;
+        height: 88px
+    }
+
+    .page_icon_1__DQBfK {
+        margin: -85px
+    }
+
+    .page_orbit_2__e6SBP {
+        width: 137px;
+        height: 137px
+    }
+
+    .page_icon_2__BQb2Q {
+        margin: -60px
+    }
+
+    .page_orbit_3__mV_qv {
+        width: 186px;
+        height: 186px
+    }
+
+    .page_icon_3__Aj9H4 {
+        margin: -52px
+    }
+
+    .page_orbit_4__eWnJB {
+        width: 235px;
+        height: 235px
+    }
+
+    .page_icon_4__dVPgd {
+        margin: -30px
+    }
+
+    .page_orbit_5__PkIcQ {
+        width: 284px;
+        height: 284px
+    }
+
+    .page_icon_5__pfU0z {
+        margin: -4px
+    }
+
+    .page_orbit_6__0uE2d {
+        width: 333px;
+        height: 333px
+    }
+
+    .page_orbit_7__YzKaR {
+        width: 382px;
+        height: 382px
+    }
+
+    .page_skill__qyXBv,
+    .page_skill_icon__c5NXS {
+        width: 73px;
+        height: 73px
+    }
+}
+
+@media(max-width:1061px) {
+    .page_placedStudents__MYhC7 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 32px;
+        gap: 32px
+    }
+}
+
+@media(max-width:900px) {
+    .page_enquire_content__axK9W {
+        flex-direction: column
+    }
+
+    .page_placedStudents__MYhC7 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+        gap: 32px
+    }
+
+    .page_grid__umSuY {
+        flex-direction: column;
+        margin-bottom: 0
+    }
+
+    .page_grid_item2__nT_2C {
+        margin: 34px auto
+    }
+
+    .page_section3__w4ruh {
+        flex-direction: column;
+        height: auto;
+        gap: 0
+    }
+
+    .page_enquire_image__GjtW_ {
+        width: 100%
+    }
+
+    .page_enquire_content__axK9W {
+        margin: 24px;
+        width: auto
+    }
+
+    .page_enquire_content__axK9W .page_enquireButtons__1fwig {
+        flex-direction: row;
+        width: 322px
+    }
+
+    .page_enquire_Image__MU2Sm {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 24px
+    }
+
+    .page_government_logos__muavR {
+        width: 85%;
+        margin: 0 auto;
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative
+    }
+
+    .page_image_container1__SMpm_,
+    .page_image_container2__yL81U {
+        display: inline-block;
+        animation: page_slide__zisTL 20s linear infinite
+    }
+
+    .page_image_container1__SMpm_ image,
+    .page_image_container2__yL81U image {
+        margin: 0 10px
+    }
+}
+
+@media(max-width:700px) {
+    .page_placedStudents__MYhC7 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 28px
+    }
+}
+
+@media(max-width:600px) {
+    .page_enquire_content__axK9W .page_enquireButtons__1fwig {
+        flex-direction: column;
+        width: 100%
+    }
+
+    .page_enquire_Image__MU2Sm {
+        height: 284px
+    }
+}
+
+@media(max-width:550px) {
+    .page_enquire_content__axK9W .page_section3_heading__Nmn_W {
+        font-size: 30px;
+        line-height: 38px
+    }
+
+    .page_placedStudents__MYhC7 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px
+    }
+
+    .page_section4_container__3JxNw {
+        padding: 48px 0
+    }
+}
+
+@media(max-width:500px) {
+    .page_button_container__7kkHR {
+        display: flex;
+        flex-direction: column;
+        gap: 12px
+    }
+
+    .page_company_logo__xGBIB {
+        width: 128px;
+        height: 67px
+    }
+
+    .page_company_card1__UlzNB .page_logo__1r_52,
+    .page_company_card2__0vHbo .page_logo__1r_52 {
+        height: 39px;
+        width: auto
+    }
+
+    .page_grid__umSuY {
+        width: 100%;
+        margin: 0
+    }
+
+    .page_grid_item1__EOw9k {
+        margin: 0 16px
+    }
+
+    .page_grid_item2__nT_2C {
+        width: 343px;
+        height: 341.5px;
+        margin: 15px auto
+    }
+
+    .page_orbit_1__wEBy3 {
+        width: 67.05px;
+        height: 67.05px
+    }
+
+    .page_orbit_2__e6SBP {
+        width: 109.79px;
+        height: 109.79px
+    }
+
+    .page_orbit_3__mV_qv {
+        width: 152.53px;
+        height: 152.53px
+    }
+
+    .page_orbit_4__eWnJB {
+        width: 193.8px;
+        height: 193.8px
+    }
+
+    .page_orbit_5__PkIcQ {
+        width: 237.27px;
+        height: 237.27px
+    }
+
+    .page_orbit_6__0uE2d {
+        width: 282.96px;
+        height: 282.96px
+    }
+
+    .page_orbit_7__YzKaR {
+        width: 325.7px;
+        height: 325.7px
+    }
+
+    .page_icon_1__DQBfK {
+        margin: -75px
+    }
+
+    .page_icon_2__BQb2Q {
+        margin: -54px
+    }
+
+    .page_icon_3__Aj9H4 {
+        margin: -48px
+    }
+
+    .page_icon_4__dVPgd {
+        margin: -27px
+    }
+
+    .page_icon_5__pfU0z {
+        margin: -6px
+    }
+
+    .page_skill__qyXBv,
+    .page_skill_icon__c5NXS {
+        width: 63.66px;
+        height: 63.66px
+    }
+
+    .page_section3__w4ruh {
+        margin: 48px auto
+    }
+}
+
+@media(max-width:450px) {
+    .page_enquire_buttons__Ug101 {
+        flex-direction: column
+    }
+
+    .page_government_logos__muavR {
+        width: 100%
+    }
+
+    .page_section3__w4ruh {
+        margin: 48px 16px;
+        width: 92.6%
+    }
+
+    .page_section4_container__3JxNw {
+        width: 92.6%;
+        margin: 0 16px
+    }
+}
+
+
+
+
+
+
+
+                .page_company_list_container__gXiRK {
+                        width: 100%;
+                        margin: 0 auto;
+                        gap: 25px;
+                        position: absolute;
+                        bottom: 20px;
+                }
+
+                .page_company_logo__xGBIB img {
+                        border-radius: 7px;
+                        /* Curved sides */
+                        object-fit: cover;
+                        /* Ensures consistent sizing */
+                        width: 100%;
+                        /* Makes sure images are responsive */
+                        max-width: 420px;
+                        height: auto;
+                }
+
+                .page_company_list_container_heading__5ZC2e {
+                        text-align: center;
+                        margin-bottom: 25px
+                }
+
+                .page_company_list__vdZzL {
+                        overflow: hidden;
+                        white-space: nowrap;
+                        position: relative
+                }
+
+                .page_company_card1__UlzNB {
+                        display: inline-block;
+                        animation: page_slide__zisTL 40s linear infinite;
+                        margin-bottom: 25px
+                }
+
+                .page_company_card2__0vHbo {
+                        display: inline-block;
+                        animation: page_slideLeft__5p5_L 40s linear infinite
+                }
+
+                .page_company_list__vdZzL:hover .page_company_card1__UlzNB,
+                .page_company_list__vdZzL:hover .page_company_card2__0vHbo {
+                        animation-play-state: paused
+                }
+
+                .page_company_card1__UlzNB .page_logo__1r_52,
+                .page_company_card2__0vHbo .page_logo__1r_52 {
+                        height: 56px;
+                        width: auto
+                }
+
+                .page_company_logo__xGBIB {
+                        width: 183px;
+                        height: 75px;
+                        display: inline-flex;
+                        margin: 0 12px;
+                        background-color: var(--white);
+                        border: 1px solid var(--light-blue-grey-100);
+                        border-radius: 8px;
+                        align-items: center;
+                        justify-content: center
+                }
+
+                @keyframes page_slide__zisTL {
+                        0% {
+                                transform: translateX(0)
+                        }
+
+                        to {
+                                transform: translateX(-100%)
+                        }
+                }
+
+                @keyframes page_slideLeft__5p5_L {
+                        0% {
+                                transform: translateX(-100%)
+                        }
+
+                        to {
+                                transform: translateX(0)
+                        }
+                }
+
+
+                .footer_social_icons__denKv {
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: center;
+                        gap: 20px;
+                }
+
+                .footer_social_icons__denKv a {
+                        color: #cacaca;
+                        /* Dark color */
+                        font-size: 30px;
+                        transition: color 0.3s;
+                }
+
+                .footer_social_icons__denKv a:hover {
+                        color: #ffffff;
+                        /* Slightly lighter on hover */
+                }
+
+                @media (max-width: 768px) {
+                        .contact-info {
+                                flex-direction: column;
+                                align-items: center;
+                        }
+                }
+
+                :root {
+                        --button-background: dodgerblue;
+                        --button-color: white;
+
+                        --dropdown-highlight: dodgerblue;
+                        --dropdown-width: 160px;
+                        --dropdown-background: white;
+                        --dropdown-color: black;
+                }
+
+                a.button {
+                        /* Frame */
+                        display: inline-block;
+                        padding: 10px 18px;
+                        border-radius: 20px;
+
+                        /* Style */
+                        border: none;
+                        background: #a2a66c21;
+                        color: #C6D309;
+                        font-weight: bold;
+                        font-size: 14px;
+                        cursor: pointer;
+                }
+
+                a.button:active {
+                        filter: brightness(75%);
+                }
+
+                /* Dropdown styles */
+                .dropdown {
+                        position: relative;
+                        padding: 0;
+                        margin-right: 1em;
+
+                        border: none;
+                }
+
+                .dropdown summary {
+                        list-style: none;
+                        list-style-type: none;
+                }
+
+                .dropdown>summary::-webkit-details-marker {
+                        display: none;
+                }
+
+                .dropdown summary:focus {
+                        outline: none;
+                }
+
+                .dropdown summary:focus a.button {
+                        border: 2px solid white;
+                }
+
+                .dropdown summary:focus {
+                        outline: none;
+                }
+
+                .dropdown ul {
+                        position: absolute;
+                        margin: 20px 0 0 0;
+                        padding: 20px 0;
+                        width: var(--dropdown-width);
+                        left: 50%;
+                        margin-left: calc((var(--dropdown-width) / 2) * -1);
+                        box-sizing: border-box;
+                        z-index: 2;
+
+                        background: var(--dropdown-background);
+                        border-radius: 6px;
+                        list-style: none;
+                }
+
+                .dropdown ul li {
+                        padding: 0;
+                        margin: 0;
+                }
+
+                .dropdown ul li a:link,
+                .dropdown ul li a:visited {
+                        display: inline-block;
+                        padding: 10px 0.8rem;
+                        width: 100%;
+                        box-sizing: border-box;
+
+                        color: var(--dropdown-color);
+                        text-decoration: none;
+                }
+
+                .dropdown ul li a:hover {
+                        background-color: var(--dropdown-highlight);
+                        color: var(--dropdown-background);
+                }
+
+                /* Dropdown triangle */
+                .dropdown ul::before {
+                        content: ' ';
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        top: -10px;
+                        left: 50%;
+                        margin-left: -10px;
+                        border-style: solid;
+                        border-width: 0 10px 10px 10px;
+                        border-color: transparent transparent var(--dropdown-background) transparent;
+                }
+
+
+                /* Close the dropdown with outside clicks */
+                .dropdown>summary::before {
+                        display: none;
+                }
+
+                .dropdown[open]>summary::before {
+                        content: ' ';
+                        display: block;
+                        position: fixed;
+                        top: 0;
+                        right: 0;
+                        left: 0;
+                        bottom: 0;
+                        z-index: 1;
+                }
+        </style>
+</head>
+
+<body>
+        <!-- Header Section -->
+        <header>
+                <div class="container">
+                        <img src="eduprajna-logo.png" alt="" class="logo"><!-- Website Logo -->
+                        <nav>
+                                <ul class="nav-links">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#footer">Contact</a></li>
+                                        <details class="dropdown">
+                                                <summary role="button">
+                                                        <a class="button">Popular Cources</a>
+                                                </summary>
+                                                <ul>
+                                                        <li><a href="commingsoon.html">Data science</a></li>
+                                                        <li><a href="commingsoon.html">Cyber Security</a></li>
+                                                        <li><a href="commingsoon.html">Cloud Computing</a></li>
+                                                </ul>
+                                        </details>
+                                </ul>
+
+
+                        </nav>
+
+                        <a href="commingsoon.html" class="cta-button">Get Started</a> <!-- Call-to-Action Button -->
+
+                </div>
+        </header>
+        <!-- Hero Section with Background Video -->
+        <section class="hero">
+                <video autoplay loop muted playsinline class="hero-video">
+                        <source src="banner.webm" type="video/mp4">
+                        Your browser does not support the video tag.
+                </video>
+                <div class="hero-content">
+                        <h2>Empowering Minds, Shaping Futures</h2>
+                        <p>Explore high-quality courses and learn from industry experts.</p>
+                        <a href="commingsoon.html" class="hero-btn">Browse Courses</a> <!-- CTA for Course Browsing -->
+                </div>
+
+                <div class="page_company_list_container__gXiRK">
+                        <p class="display-sm-semibold page_company_list_container_heading__5ZC2e">Our Students Got Hired
+                                From:</p>
+                        <div class="page_company_list__vdZzL">
+                                <div class="page_company_card1__UlzNB">
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-f4050175a1802.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-2ef282584bb0a.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-3c7a46554622e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-4f63545119195.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5a3791e57fe7e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5c7af6b2ac6f7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-6ac0122d89a2d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-7ac24e7aee7df.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-17c1fda6c58e8.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-19c5578994bca.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-d24a78379f827.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-32b60f969f057.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-34eff7a24527d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-36e46176f2d82.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-39fdb7f57f9e4.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-61e3122dd2c7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-64cfd1aadc583.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-80d7c252e1888.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-84cac1b779e3.png"
+                                                        style="color: transparent;"></div>
+
+                                </div>
+                                <div class="page_company_card1__UlzNB">
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-f4050175a1802.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-2ef282584bb0a.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-3c7a46554622e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-4f63545119195.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5a3791e57fe7e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5c7af6b2ac6f7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-6ac0122d89a2d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-7ac24e7aee7df.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-17c1fda6c58e8.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-19c5578994bca.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-d24a78379f827.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-32b60f969f057.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-34eff7a24527d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-36e46176f2d82.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-39fdb7f57f9e4.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-61e3122dd2c7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-64cfd1aadc583.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-80d7c252e1888.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-84cac1b779e3.png"
+                                                        style="color: transparent;"></div>
+
+                                </div>
+                                <div class="page_company_card1__UlzNB">
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-f4050175a1802.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-2ef282584bb0a.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-3c7a46554622e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-4f63545119195.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5a3791e57fe7e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5c7af6b2ac6f7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-6ac0122d89a2d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-7ac24e7aee7df.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-17c1fda6c58e8.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-19c5578994bca.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-d24a78379f827.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-32b60f969f057.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-34eff7a24527d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-36e46176f2d82.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-39fdb7f57f9e4.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-61e3122dd2c7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-64cfd1aadc583.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-80d7c252e1888.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-84cac1b779e3.png"
+                                                        style="color: transparent;"></div>
+
+                                </div>
+                        </div>
+                        <div class="page_company_list__vdZzL">
+                                <div class="page_company_card2__0vHbo">
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-f4050175a1802.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-2ef282584bb0a.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-3c7a46554622e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-4f63545119195.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5a3791e57fe7e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5c7af6b2ac6f7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-6ac0122d89a2d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-7ac24e7aee7df.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-17c1fda6c58e8.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-19c5578994bca.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-d24a78379f827.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-32b60f969f057.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-34eff7a24527d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-36e46176f2d82.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-39fdb7f57f9e4.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-61e3122dd2c7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-64cfd1aadc583.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-80d7c252e1888.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-84cac1b779e3.png"
+                                                        style="color: transparent;"></div>
+                                </div>
+                                <div class="page_company_card2__0vHbo">
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-f4050175a1802.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-2ef282584bb0a.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-3c7a46554622e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-4f63545119195.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5a3791e57fe7e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5c7af6b2ac6f7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-6ac0122d89a2d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-7ac24e7aee7df.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-17c1fda6c58e8.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-19c5578994bca.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-d24a78379f827.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-32b60f969f057.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-34eff7a24527d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-36e46176f2d82.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-39fdb7f57f9e4.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-61e3122dd2c7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-64cfd1aadc583.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-80d7c252e1888.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-84cac1b779e3.png"
+                                                        style="color: transparent;"></div>
+                                </div>
+                                <div class="page_company_card2__0vHbo">
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-f4050175a1802.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-2ef282584bb0a.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-3c7a46554622e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-4f63545119195.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5a3791e57fe7e.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-5c7af6b2ac6f7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-6ac0122d89a2d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-7ac24e7aee7df.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-17c1fda6c58e8.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-19c5578994bca.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-d24a78379f827.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-32b60f969f057.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-34eff7a24527d.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-36e46176f2d82.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-39fdb7f57f9e4.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-61e3122dd2c7.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-64cfd1aadc583.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-80d7c252e1888.png"
+                                                        style="color: transparent;"></div>
+
+                                        <div class="page_company_logo__xGBIB"><img alt="company-logo" loading="lazy"
+                                                        width="420" height="168" decoding="async" data-nimg="1"
+                                                        class="page_logo__1r_52" src="/_next/image-84cac1b779e3.png"
+                                                        style="color: transparent;"></div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <section>
+                <center>
+                        <h2 style="margin-top: 30px;    background: #8783836b;
+    margin-left: 29%;
+    margin-right: 28%;
+    padding: 10PX;
+    border-bottom-left-radius: 63%;
+    border-bottom-right-radius: 63%;">Cources we provide</h2>
+                </center>
+                <div class="case-study-area style-one">
+                        <div class="container">
+                                <!-- row2 -->
+                                <div class="row image_load">
+                                        <div class="col-xl-4 col-lg-6 col-md-6 grid-item Wordpress Networking">
+                                                <div class="case-study-single-box">
+                                                        <div class="case-study-thumb">
+                                                                <img src="assets/images/home-one/cloud computing.jpg"
+                                                                        alt="thumb">
+                                                                <div class="case-meta-top">
+                                                                        <span>$30</span>
+                                                                </div>
+                                                        </div>
+                                                        <div class="case-study-content">
+                                                                <h5>Cloud Computing</h5>
+                                                                <h4><a href="course.html">On-demand internet-based
+                                                                                computing services</a></h4>
+                                                                <div class="case-rating">
+                                                                        <ul>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-classic fa-solid fa-star-half-stroke fa-fw"></i>
+                                                                                </li>
+                                                                        </ul>
+                                                                        <div class="case-rating-num">
+                                                                                <span>(4.5/3 Ratings)</span>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="case-autor-box">
+                                                                        <div class="case-autor-img">
+                                                                                <img src="assets/images/home-one/case-autor.png"
+                                                                                        alt="autor">
+                                                                        </div>
+                                                                        <div class="case-autor-content">
+                                                                                <h3>Dr.Nithish</h3>
+                                                                                <p>Instractor</p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="case-course-content">
+                                                                        <div class="course-lesson">
+                                                                                <span><i class="fa-regular fa-file-lines"></i>
+                                                                                        12 Leasons</span>
+                                                                        </div>
+                                                                        <div class="course-student">
+                                                                                <span><i class="fa-regular fa-user"></i>
+                                                                                        1200 Students</span>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="course-btn">
+                                                                        <a href="commingsoon.html">ENROL NOW<i
+                                                                                        class="flaticon flaticon-right-arrow"></i></a>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 grid-item Business Finance Wordpress">
+                                                <div class="case-study-single-box box-2">
+                                                        <div class="case-study-thumb">
+                                                                <img src="assets/images/home-one/cyber security.jpg"
+                                                                        alt="thumb">
+                                                                <div class="case-meta-top">
+                                                                        <span>Free</span>
+                                                                </div>
+                                                        </div>
+                                                        <div class="case-study-content">
+                                                                <h5>Cyber Security</h5>
+                                                                <h4><a href="course.html">Protecting systems and data
+                                                                                from cyber threats</a></h4>
+                                                                <div class="case-rating">
+                                                                        <ul>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-classic fa-solid fa-star-half-stroke fa-fw"></i>
+                                                                                </li>
+                                                                        </ul>
+                                                                        <div class="case-rating-num">
+                                                                                <span>(4.5/3 Ratings)</span>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="case-autor-box">
+                                                                        <div class="case-autor-img">
+                                                                                <img src="assets/images/home-one/case-autor2.png"
+                                                                                        alt="autor">
+                                                                        </div>
+                                                                        <div class="case-autor-content">
+                                                                                <h3>Likhith K R</h3>
+                                                                                <p>Instractor</p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="case-course-content">
+                                                                        <div class="course-lesson">
+                                                                                <span><i class="fa-regular fa-file-lines"></i>
+                                                                                        16 Leasons</span>
+                                                                        </div>
+                                                                        <div class="course-student">
+                                                                                <span><i class="fa-regular fa-user"></i>
+                                                                                        1500 Students</span>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="course-btn">
+                                                                        <a href="commingsoon.html">ENROL NOW<i
+                                                                                        class="flaticon flaticon-right-arrow"></i></a>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 grid-item Networking Designing Business">
+                                                <div class="case-study-single-box box-3">
+                                                        <div class="case-study-thumb">
+                                                                <img src="assets/images/home-one/data science.jpg"
+                                                                        alt="thumb">
+                                                                <div class="case-meta-top">
+                                                                        <span>$35</span>
+                                                                </div>
+                                                        </div>
+                                                        <div class="case-study-content">
+                                                                <h5>Data Science</h5>
+                                                                <h4><a href="course.html">Extracting insights from data
+                                                                                using analytics</a></h4>
+                                                                <div class="case-rating">
+                                                                        <ul>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-solid fa-star"></i>
+                                                                                </li>
+                                                                                <li><i class="fa-classic fa-solid fa-star-half-stroke fa-fw"></i>
+                                                                                </li>
+                                                                        </ul>
+                                                                        <div class="case-rating-num">
+                                                                                <span>(4.5/3 Ratings)</span>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="case-autor-box">
+                                                                        <div class="case-autor-img">
+                                                                                <img src="assets/images/home-one/case-autor3.png"
+                                                                                        alt="autor">
+                                                                        </div>
+                                                                        <div class="case-autor-content">
+                                                                                <h3>Chethan Kumar H C</h3>
+                                                                                <p>Instractor</p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="case-course-content">
+                                                                        <div class="course-lesson">
+                                                                                <span><i class="fa-regular fa-file-lines"></i>
+                                                                                        15 Leasons</span>
+                                                                        </div>
+                                                                        <div class="course-student">
+                                                                                <span><i class="fa-regular fa-user"></i>
+                                                                                        1600 Students</span>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="course-btn">
+                                                                        <a href="commingsoon.html">ENROL NOW<i
+                                                                                        class="flaticon flaticon-right-arrow"></i></a>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <div class="background-image  has-featured-image"
+                style="background-image: linear-gradient(360deg, rgb(11, 17, 39, 53%) 100%, rgb(11, 17, 39, 53%) 100%,rgb(11, 17, 39, 53%) 100%), url('https://www.kajeet.com/hubfs/Imported_Blog_Media/iStock-1144411747-1-scaled-1.jpeg') ">
+        </div>
+        <section class="about" id="about">
+
+                <!-- What Our Learners Say Section -->
+                <section class="learner-reviews">
+                        <h2>What Our Learners Says About Us</h2>
+                        <p>Hear from our students about their learning experience with us.</p>
+
+                        <div class="review-container">
+                                <div class="review-card">
+                                        <img src="https://randomuser.me/api/portraits/men/27.jpg" alt="Aryan Singh">
+                                        <h3>Aryan Singh</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>"Excellent support from mentors and a great learning experience. Highly
+                                                recommended for beginners and professionals alike!"</p>
+                                </div>
+
+                                <div class="review-card">
+                                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rohit Sharma">
+                                        <h3>Rohit Sharma</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>"The courses are well-structured and the instructors are amazing! I learned
+                                                web development in just a few months."</p>
+                                </div>
+
+                                <div class="review-card">
+                                        <img src="https://randomuser.me/api/portraits/women/29.jpg" alt="Neha Verma">
+                                        <h3>Neha Verma</h3>
+                                        <div class="stars">★★★★☆</div>
+                                        <p>"The best platform for learning! The interactive lessons and hands-on
+                                                projects helped me gain confidence in coding."</p>
+                                </div>
+                        </div>
+                </section>
+
+                <!-- CSS Styles -->
+                <style>
+                        .learner-reviews {
+                                background-color: #FAFAFA;
+                                /* Soft off-white */
+                                text-align: center;
+                                padding: 60px 10%;
+                        }
+
+                        .learner-reviews h2 {
+                                font-size: 28px;
+                                color: #222;
+                                margin-bottom: 10px;
+                                background: #8783836b;
+                                margin-left: 16%;
+                                margin-right: 13%;
+                                padding: 10PX;
+                                border-bottom-left-radius: 63%;
+                                border-bottom-right-radius: 63%;
+                        }
+
+                        .learner-reviews p {
+                                font-size: 16px;
+                                color: #666;
+                                margin-bottom: 30px;
+                        }
+
+                        .review-container {
+                                display: flex;
+                                justify-content: center;
+                                gap: 20px;
+                                flex-wrap: wrap;
+                        }
+
+                        .review-card {
+                                background: white;
+                                padding: 20px;
+                                border-radius: 10px;
+                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                                max-width: 300px;
+                                text-align: center;
+                        }
+
+                        .review-card img {
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                margin-bottom: 10px;
+                                border: 2px solid #ffcc00;
+                        }
+
+                        .review-card h3 {
+                                font-size: 18px;
+                                color: #333;
+                                margin-bottom: 8px;
+                        }
+
+                        .review-card p {
+                                font-size: 14px;
+                                color: #555;
+                                line-height: 1.5;
+                        }
+
+                        .stars {
+                                font-size: 20px;
+                                color: #FFD700;
+                                margin-bottom: 10px;
+                        }
+
+                        @media (max-width: 768px) {
+                                .review-container {
+                                        flex-direction: column;
+                                        align-items: center;
+                                }
+                        }
+                </style>
+        </section>
+        <!-- Contact Us Section -->
+        <!-- <section class="contact" id="contact">
+                <div class="contact-container">
+                        <h2>Contact Us</h2>
+                        <p>Have questions or need assistance? Feel free to reach out to us!</p>
+
+                        <div class="contact-info">
+                                <div class="contact-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <p>Email: <a
+                                                        href="mailto:info@educationwebsite.com">info@educationwebsite.com</a>
+                                        </p>
+                                </div>
+                                <div class="contact-item">
+                                        <i class="fas fa-phone"></i>
+                                        <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+                                </div>
+                                <div class="contact-item">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <p>Address: 123 Education Street, Learning City, 56789</p>
+                                </div>
+                        </div>
+
+                        <form class="contact-form">
+                                <input type="text" placeholder="Your Name" required>
+                                <input type="email" placeholder="Your Email" required>
+                                <textarea placeholder="Your Message" required></textarea>
+                                <button type="submit">Send Message</button>
+                        </form>
+                </div>
+        </section> -->
+
+        <!-- Add Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <section>
+                <div class="page_section4__yON6t">
+                        <div class="page_section4_container__3JxNw">
+                                <div class="page_section4_heading_container__NyHmY">
+                                        <p class="display-md-semibold" style="background: #8783836b;
+                                        margin-left: 16%;
+                                        margin-right: 13%;
+                                        padding: 10PX;
+                                        border-bottom-left-radius: 63%;
+                                        border-bottom-right-radius: 63%">Recently Placed Students</p>
+                                        <p class="text-lg-regular page_section4_sub_heading___cIt8">Showcasing our
+                                                recent alumni who have secured positions in top companies, reflecting
+                                                their achievements and the effectiveness of our training.</p>
+                                </div>
+                                <div>
+                                        <div class="page_placed_students__S_RRj">
+                                                <div class="page_student_card__b_KWc">
+                                                        <div><img alt="student" loading="lazy" width="280" height="280"
+                                                                        decoding="async" data-nimg="1"
+                                                                        class="page_placement_image__tYl8h"
+                                                                        src="/assets/images/home-one/img-1.jpeg"
+                                                                        style="color: transparent;"></div>
+                                                        <div class="page_student_details__E_N6o">
+                                                                <div>
+                                                                        <p class="text-lg-medium">Aman Kumar</p>
+                                                                        <p
+                                                                                class="text-md-semibold page_student_role__JubV0">
+                                                                                Project Intern( Cybersecurity)</p>
+                                                                </div>
+                                                                <div><img alt="companyLogo" loading="lazy" width="140"
+                                                                                height="56" decoding="async"
+                                                                                data-nimg="1"
+                                                                                src="_next/image-0069685371464.png"
+                                                                                style="color: transparent;"></div>
+                                                                <div>
+                                                                        <p
+                                                                                class="text-xl-semibold page_student_role__JubV0">
+                                                                                8 LPA</p>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="page_student_card__b_KWc">
+                                                        <div><img alt="student" loading="lazy" width="280" height="280"
+                                                                        decoding="async" data-nimg="1"
+                                                                        class="page_placement_image__tYl8h"
+                                                                        src="assets/images/home-one/img-2.jpeg"
+                                                                        style="color: transparent;"></div>
+                                                        <div class="page_student_details__E_N6o">
+                                                                <div>
+                                                                        <p class="text-lg-medium">Veera Karthik Jangam
+                                                                        </p>
+                                                                        <p
+                                                                                class="text-md-semibold page_student_role__JubV0">
+                                                                                Full Stack Developer</p>
+                                                                </div>
+                                                                <div><img alt="companyLogo" loading="lazy" width="140"
+                                                                                height="56" decoding="async"
+                                                                                data-nimg="1"
+                                                                                src="_next/image-03676ba6faa36.png"
+                                                                                style="color: transparent;"></div>
+                                                                <div>
+                                                                        <p
+                                                                                class="text-xl-semibold page_student_role__JubV0">
+                                                                                7 LPA</p>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="page_student_card__b_KWc">
+                                                        <div><img alt="student" loading="lazy" width="280" height="280"
+                                                                        decoding="async" data-nimg="1"
+                                                                        class="page_placement_image__tYl8h"
+                                                                        src="assets/images/home-one/img-3.jpeg"
+                                                                        style="color: transparent;"></div>
+                                                        <div class="page_student_details__E_N6o">
+                                                                <div>
+                                                                        <p class="text-lg-medium">Eduru Teja</p>
+                                                                        <p
+                                                                                class="text-md-semibold page_student_role__JubV0">
+                                                                                QA Analyst</p>
+                                                                </div>
+                                                                <div><img alt="companyLogo" loading="lazy" width="140"
+                                                                                height="51" decoding="async"
+                                                                                data-nimg="1"
+                                                                                src="_next/image-17c1fda6c58e8.png"
+                                                                                style="color: transparent;"></div>
+                                                                <div>
+                                                                        <p
+                                                                                class="text-xl-semibold page_student_role__JubV0">
+                                                                                6 LPA</p>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="page_student_card__b_KWc">
+                                                        <div><img alt="student" loading="lazy" width="280" height="280"
+                                                                        decoding="async" data-nimg="1"
+                                                                        class="page_placement_image__tYl8h"
+                                                                        src="assets/images/home-one/img-4.jpeg"
+                                                                        style="color: transparent;"></div>
+                                                        <div class="page_student_details__E_N6o">
+                                                                <div>
+                                                                        <p class="text-lg-medium">Yogalakshmi</p>
+                                                                        <p
+                                                                                class="text-md-semibold page_student_role__JubV0">
+                                                                                Programmer Specialist</p>
+                                                                </div>
+                                                                <div><img alt="companyLogo" loading="lazy" width="420"
+                                                                                height="168" decoding="async"
+                                                                                data-nimg="1"
+                                                                                src="_next/image-19c5578994bca.png"
+                                                                                style="color: transparent;"></div>
+                                                                <div>
+                                                                        <p
+                                                                                class="text-xl-semibold page_student_role__JubV0">
+                                                                                9.5 LPA</p>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <section class="about" id="about">
+
+
+                <h2 style="margin-top: 50px;">Know Us More</h2>
+
+                <div class="about-container">
+                        <div class="about-image">
+                                <img src="eduprajna-logo.png" alt="About Us">
+                        </div>
+                        <div class="about-content">
+                                <p>Welcome to <strong>EduPrajna</strong>, your gateway to world-class education. We
+                                        offer
+                                        industry-relevant courses designed to enhance skills and career growth.</p>
+                                <p>Our platform is committed to delivering high-quality learning experiences through
+                                        expert instructors,
+                                        hands-on projects, and interactive lessons.</p>
+
+                                <div class="stats">
+                                        <div class="stat-item">
+                                                <h3>10,000+</h3>
+                                                <p>Students Enrolled</p>
+                                        </div>
+                                        <div class="stat-item">
+                                                <h3>500+</h3>
+                                                <p>Certified Courses</p>
+                                        </div>
+                                        <div class="stat-item">
+                                                <h3>100+</h3>
+                                                <p>Expert Instructors</p>
+                                        </div>
+                                </div>
+
+                                <a href="#" class="learn-more">Learn More</a>
+                        </div>
+                </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer_footer__Frv3_" id="footer">
+                <section class="footer_footer_bottom_container__jOiQk">
+                        <div class="footer_footer_bottom__rYvxN">
+                                <div class="footer_footer_info__7eDpT">
+                                        <div class="footer_company_info__lnh_D">
+                                                <div class="footer_company_logo__OjJid"><img alt="Tap Academy"
+                                                                loading="lazy" width="122" height="48" decoding="async"
+                                                                data-nimg="1" style="color:transparent"
+                                                                src="eduprajna-logo.png" />
+                                                        <p>A Unit of EduPrajna Tech Private Limited</p>
+                                                </div>
+                                                <div class="footer_social_links__3C0Rl">
+                                                        <p>Follow us on</p>
+                                                        <div class="footer_social_icons__denKv">
+                                                                <a href="https://github.com" target="_blank"><i
+                                                                                class="fab fa-github"></i></a>
+                                                                <a href="https://linkedin.com" target="_blank"><i
+                                                                                class="fab fa-linkedin"></i></a>
+                                                                <a href="https://facebook.com" target="_blank"><i
+                                                                                class="fab fa-facebook"></i></a>
+                                                                <a href="https://twitter.com" target="_blank"><i
+                                                                                class="fab fa-twitter"></i></a>
+                                                                <a href="https://instagram.com" target="_blank"><i
+                                                                                class="fab fa-instagram"></i></a>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="footer_useful_links_container__q7mjo">
+                                                <div class="footer_social_links1__Zpz1D">
+                                                        <p>Follow us on</p>
+                                                        <div class="footer_social_icons__denKv"><span><img
+                                                                                alt="facebook" loading="lazy" width="24"
+                                                                                height="24" decoding="async"
+                                                                                data-nimg="1" style="color:transparent"
+                                                                                src="/_next/static/media/facebook.a2c0aebd.svg" /></span><span><img
+                                                                                alt="youtube" loading="lazy" width="24"
+                                                                                height="24" decoding="async"
+                                                                                data-nimg="1" style="color:transparent"
+                                                                                src="/_next/static/media/youtube.0cc92eb3.svg" /></span><span><img
+                                                                                alt="instagram" loading="lazy"
+                                                                                width="24" height="24" decoding="async"
+                                                                                data-nimg="1" style="color:transparent"
+                                                                                src="/_next/static/media/instagram.c8d10afe.svg" /></span><span><img
+                                                                                alt="linkedin" loading="lazy" width="24"
+                                                                                height="24" decoding="async"
+                                                                                data-nimg="1" style="color:transparent"
+                                                                                src="/_next/static/media/linkedin.31fdab4f.svg" /></span>
+                                                        </div>
+                                                </div>
+                                                <div class="footer_useful_links__flFO8">
+                                                        <div class="footer_useful_links_content__sWJjU">
+                                                                <p class="footer_useful_links_title__E8BX5">Useful Links
+                                                                </p>
+                                                                <ul class="footer_useful_links_list__E0pgQ">
+                                                                        <li><a href="/">Home</a></li>
+                                                                        <li><a href="/student-reviews">Student
+                                                                                        Reviews</a></li>
+                                                                        <li><a href="/hire-from-us">Hire From Us</a>
+                                                                        </li>
+                                                                        <li><a href="/contact-us">Contact Us</a></li>
+                                                                </ul>
+                                                        </div>
+                                                        <div class="footer_course_useful_links__1t8Y3">
+                                                                <p class="footer_useful_links_title__E8BX5">Address</p>
+                                                                <ul class="footer_useful_links_list__E0pgQ">
+                                                                        <li><a>Near Empire Kammanahalli, Eduprajna #93,
+                                                                                        Nehru Rd, St Thomas Town, </a>
+                                                                        </li>
+                                                                        <li><a>Kammanahalli, Bengaluru, Karnataka
+                                                                                        560084, India</a></li>
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div>
+                                        <div class="footer_footer_divider__RuieL"></div>
+                                        <div class="footer_footer_copyright__fORMQ">
+                                                <p>Copyright © 2025 | EduPrajna</p>
+                                                <div class="footer_footer_legal__EX4hq"><a
+                                                                href="/privacy-policy">Privacy Policy</a><a
+                                                                href="/terms-and-conditions">Terms &amp;
+                                                                Conditions</a><a href="/refunds-cancellations">Refunds /
+                                                                Cancellations</a></div>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+        </footer>
+</body>
+
+</html>
